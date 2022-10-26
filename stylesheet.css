@@ -1,0 +1,138 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .links, .headContainer, .footer 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+
+.header
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.headContainer
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 50px;
+}
+
+.columnContainer
+{
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.illustrations
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.illustration
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img.illust
+{
+    /* border-color: #3882F6; */
+    border: 4px solid #3882F6;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.quote
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.origin 
+{
+    justify-self: flex-end;
+}
+
+.signUp
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    
+    margin: 100px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.callToAction
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.signUpButton
+{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 50px;
+    width: 170px;
+}
+
+#signUpAction
+{
+    border: 2px solid #E5E7EB;
+}
+
+h2 
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
